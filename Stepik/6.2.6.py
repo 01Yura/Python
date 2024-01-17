@@ -1,3 +1,5 @@
 string=input()
 if 'синий' in string:
-    print('')
+    print('YES')
+else:
+    print('NO')
