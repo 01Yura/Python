@@ -1,7 +1,9 @@
 a=int(input())
-if a==2:
-    print('28')
-elif a%2==0:
-    print('31')
-else:
-    print('30')
+b=int(input())
+c=int(input())
+if a<b<c or c<b<a:
+    print(b)
+elif b<a<c or c<a<b:
+    print(a)
+elif a<c<b or b<c<a:
+    print(c)

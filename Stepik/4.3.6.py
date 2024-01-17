@@ -1,31 +1,13 @@
-color1=input()
-color2=input()
-if color1=='красный':
-    if color2=='синий':
-        print('фиолетовый')
-    elif color2=='желтый':
-        print('оранжевый')
-    elif color2=='красный':
-        print('красный')
-    else:
-        print('ошибка цвета')
-elif color1=='синий':
-    if color2=='желтый':
-        print('зеленый')
-    elif color2=='желтый':
-        print('оранжевый')
-    elif color2=='синий':
-        print('синий')
-    else:
-        print('ошибка цвета')
-elif color1=='желтый':
-    if color2=='синий':
-        print('зеленый')
-    elif color2=='красный':
-        print('оранжевый')
-    elif color2=='желтый':
-        print('желтый')
-    else:
-        print('ошибка цвета')
+num1=int(input())
+num2=int(input())
+sign=input()
+if sign=='+':
+    print(num1+num2)
+elif sign=='-':
+    print(num1-num2)
+elif sign=='*':
+    print(num1*num2)
+elif sign=='/' and num2!=0:
+    print(num1/num2)
 else:
-    print('ошибка цвета')
+    print('Неверная операция')

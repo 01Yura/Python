@@ -1,13 +1,9 @@
-num1=int(input())
-num2=int(input())
-sign=input()
-if sign=='+':
-    print(num1+num2)
-elif sign=='-':
-    print(num1-num2)
-elif sign=='*':
-    print(num1*num2)
-elif sign=='/' and num2!=0:
-    print(num1/num2)
-else:
-    print('Неверная операция')
+a=int(input())
+if a<69:
+    if a<64:
+        if a<60:
+            print('Легкий вес')
+        else:
+            print('Первый полусредний вес')
+    else:
+        print('Полусредний вес')
