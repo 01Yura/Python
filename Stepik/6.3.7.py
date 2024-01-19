@@ -1,4 +1,3 @@
-
 from math import pow, tan, pi
 
 n, a = int(input()), float(input())
