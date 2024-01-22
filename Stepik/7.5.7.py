@@ -1,12 +1,12 @@
 num=int(input())
 flag='YES'
-last_digit = num % 10
+penultimate_digit = num % 10
 num=num//10
 while not num==0:
-    penultimate_digit = last_digit
-    last_digit = num % 10
+    last_digit = penultimate_digit
+    penultimate_digit = num % 10
     num//=10
-    if last_digit<penultimate_digit:
+    if penultimate_digit<last_digit:
         flag='NO'
 print(flag)
 
