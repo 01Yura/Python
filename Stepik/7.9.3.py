@@ -1,8 +1,12 @@
 a, b = int(input()), int(input())
-sum = 0
+summa = 0
 for i in range(a, b + 1):
-    for j in range(0, i + 1):
+    summa1 = summa
+    summa = 0
+    for j in range(1, i + 1):
         if i % j == 0:
-            sum += j
-            max = i
-print(max, sum)
+            summa += j
+    if summa1 <= summa:
+        maxsumma = summa
+        maxdigit = i
+print(maxdigit, maxsumma)
