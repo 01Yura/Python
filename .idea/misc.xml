@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Black">
-    <option name="pathToExecutable" value="C:\Python311\Scripts\black.exe" />
-    <option name="sdkUUID" value="96e7e038-5a0e-4bcb-9c9a-58902f0f71e8" />
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (Python)" project-jdk-type="Python SDK" />
-</project>
