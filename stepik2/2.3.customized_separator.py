@@ -1,0 +1,5 @@
+separator = input()
+string = input()
+string2 = input()
+string3 = input()
+print(string3, string2, string, sep=separator)
