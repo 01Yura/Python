@@ -1,5 +1,0 @@
-a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
-x=min(a,b,c,d,e)
-y=max(a,b,c,d,e)
-print('Наименьшее число =', x)
-print('Наибольшее число =', y)
