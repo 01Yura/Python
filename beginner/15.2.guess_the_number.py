@@ -1,12 +1,10 @@
 import random
 
-
 def is_valid(n):
     if n.isdigit() and 1 <= int(n) <= 100:
         return True
     else:
         return False
-
 
 flag = True
 while flag:
