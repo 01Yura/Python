@@ -1,0 +1,10 @@
+s1 = input()
+s2 = input()
+se1 = set(s1.split())
+se2 = set(s2.split())
+li = list(se1.intersection(se2))
+li2 = list()
+for el in li:
+    li2.append(int(el))
+li2.sort()
+print(*li2)
