@@ -1,0 +1,1 @@
+func = lambda str: str.lower().startswith("a") and str.lower().endswith("a")
