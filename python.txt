@@ -136,6 +136,9 @@ pip install package_name
 Если у вас есть файл requirements.txt, вы можете установить все зависимости разом прописав их там (они скачиваются с https://pypi.org/):
 pip install -r requirements.txt
 
+Чтобы посмотреть все установленные в проекте либы:
+pip list
+
 Или чтобы добавить все установленные зависимости в requirements.txt:
 pip freeze > requirements.txt для быстрого добавления зависимостей в req-s.txt
 
